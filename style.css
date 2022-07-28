@@ -1,0 +1,85 @@
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #bbbbbb;    
+}
+
+.header {
+width: 80%;
+height: 15em;
+margin: 0 auto;
+margin-bottom: 2em;
+display: flex;
+background-color: transparent;
+justify-content: flex-start;
+align-items: flex-end;
+}
+
+#title {
+color: #fefefe;
+font-size: 5em;
+font-weight: 900;
+text-align: left;
+}
+
+.columnswrap {
+width: 80%;
+height: 8em;
+margin: 0 auto;
+background-color: #ffffff;
+display: flex;
+justify-content: space-evenly;
+}
+
+.columnsbox {
+    width: 30%;
+    height: 8em;
+    color: #747474;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.feed {
+    width: 80%;
+    height: 50em;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .feedline {
+        width: 100%;
+        height: 5em;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;   
+        margin-bottom: 5%; 
+    }
+
+        .feedbox {
+            width: 30%;
+            height: 5em;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+            .img {
+                width: 5em;
+                height: 5em;
+                background-color: #bbbbbb;
+            }
+            .text {
+                width: 65%;
+                height: 5em;
+                margin-left: 5%;                
+            }
+            .textright {
+                width: 100%;
+                height: 5em;
+                               
+            }
